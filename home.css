@@ -295,7 +295,10 @@ video{
         object-fit: cover;
 }
 @media (max-width:415px){
-    
+    body {
+        zoom: 0.8; /* Adjust the zoom level as needed */
+        transform-origin: top;
+    }
     .video{
         width: 400px;
         height: 1700px;
