@@ -9,20 +9,13 @@ body{
     width: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
-    background: linear-gradient(to left,rgba(255, 255, 255, 0.096),rgba(0, 0, 0, 0.397)),url(./images/empty-football-stadium-field-view-sunset-flat-horizontal_48369-24918.jpg);
-    background-size: cover;
-    
-    
+   
 }
 .slides .imgs{
     position: absolute;
     transition: all 2s ease;
-    
-    
 
 }
-
-
 
 .slide img{
     width: 550px;
@@ -30,10 +23,7 @@ body{
     animation: anim1 10s linear infinite; 
     border-radius: 180%;
     
-    
-    
-  
-    
+ 
 }
 .slides .box{
     width: 450px;
@@ -278,4 +268,18 @@ body{
 
 .invitation .dis{
     margin-top: 150px;
+}
+.container{
+    visibility: hidden;
+    position: relative;
+    z-index: 100;
+    top:-750px;
+}
+.v1{
+    visibility: visible;
+}
+video{
+    width: 100vw;
+        height: 100vh;
+        object-fit: cover;
 }
