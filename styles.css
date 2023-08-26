@@ -128,7 +128,7 @@ video {
     inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
 }
 
-@media (max-width:375px){
+@media (max-width:415px){
   .w-full h1{
     font-size: 85px;
   }
