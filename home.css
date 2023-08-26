@@ -295,7 +295,7 @@ video{
         object-fit: cover;
 }
 @media (max-width:415px){
-   
+    
     .video{
         width: 400px;
         height: 1700px;
@@ -337,7 +337,6 @@ video{
     .invitation{
         margin-left: -100px;
         margin-top: 250px;
-       
     }
     video{
        
