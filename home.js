@@ -96,3 +96,7 @@ cup.addEventListener('click',function(){
   cup.classList.add('ini')
   cup.classList.remove('cup2')
 })
+
+
+
+
