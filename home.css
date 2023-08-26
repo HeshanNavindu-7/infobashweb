@@ -298,7 +298,7 @@ video{
     
     .video{
         width: 400px;
-        height: 667px;
+        height: 950px;
         overflow: hidden;
         position: absolute;
         top:-50px;
@@ -344,7 +344,7 @@ video{
         height: 900px;
         margin-top: 120px;
         margin-left: 200px;
-        transform: scale(4);
+        transform: scale(4.2);
     }
     
     
