@@ -295,7 +295,17 @@ video{
         object-fit: cover;
 }
 @media (max-width:415px){
-
+    
+    .video{
+        width: 400px;
+        height: 667px;
+        overflow: hidden;
+        position: absolute;
+        top:-50px;
+    }
+    .container{
+        margin-top: 250px;
+    }
     .slides{
         width: 100%;
         margin-left: -100px;
