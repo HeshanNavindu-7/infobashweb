@@ -6,7 +6,7 @@ function times1(){
     times+=1;
     console.log(times)
 
-    if(times==13){
+    if(times==1){
         clearInterval(timesCount)
         container.classList.add('v1')
 
