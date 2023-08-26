@@ -233,7 +233,7 @@ body{
     position: absolute;
     left: 50px;
     border-radius: 24px;
-    background: linear-gradient(to left,rgba(182, 103, 103, 0.034),rgba(255, 255, 255, 0)),url(./WhatsApp\ Image\ 2023-08-26\ at\ 09.08.39.jpg);
+    background: linear-gradient(to left,rgba(182, 103, 103, 0.034),rgba(255, 255, 255, 0));
     backdrop-filter: blur(12px);
     background-size: cover;
     z-index: -1;
