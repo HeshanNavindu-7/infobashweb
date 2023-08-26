@@ -304,13 +304,16 @@ video{
         top:-50px;
     }
     .container{
-        margin-top: 250px;
+        margin-top: 400px;
     }
     .slides{
         width: 100%;
         margin-left: -100px;
-        margin-top: 660px;
+        margin-top: 580px;
         transform: scale(0.4);
+        z-index: -1;
+        top: 100px;
+        position: relative;
     }
     .slides .slide .img{
         transform: scale(0.5);
@@ -325,8 +328,8 @@ video{
     .cup{
         transform: scale(0.5);
         left:0px;
-        top :-400px;
-        z-index: -1;
+        top :-380px;
+        
 
     }
     .cup .lid{
@@ -337,6 +340,9 @@ video{
     .invitation{
         margin-left: -100px;
         margin-top: 250px;
+        transform: scale(1.5);
+        
+        
     }
     video{
        
