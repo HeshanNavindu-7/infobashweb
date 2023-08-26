@@ -295,10 +295,7 @@ video{
         object-fit: cover;
 }
 @media (max-width:415px){
-    body {
-        zoom: 0.8; /* Adjust the zoom level as needed */
-        transform-origin: top;
-    }
+   
     .video{
         width: 400px;
         height: 1700px;
@@ -307,7 +304,7 @@ video{
         top:-50px;
     }
     .container{
-        margin-top: 320px;
+        margin-top: 250px;
     }
     .slides{
         width: 100%;
@@ -340,7 +337,7 @@ video{
     .invitation{
         margin-left: -100px;
         margin-top: 250px;
-        transform: scale(1.5);
+       
     }
     video{
        
