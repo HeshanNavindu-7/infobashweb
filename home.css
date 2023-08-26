@@ -307,7 +307,7 @@ video{
         top:-50px;
     }
     .container{
-        margin-top: 250px;
+        margin-top: 320px;
     }
     .slides{
         width: 100%;
@@ -340,6 +340,7 @@ video{
     .invitation{
         margin-left: -100px;
         margin-top: 250px;
+        transform: scale(1.5);
     }
     video{
        
