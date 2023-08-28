@@ -309,7 +309,7 @@ video{
         top:-50px;
     }
     .container{
-        margin-top: 400px;
+        margin-top: -400px;
     }
     .slides{
         width: 100%;
@@ -353,7 +353,7 @@ video{
        
         width:100%;
         position: absolute;
-        top: 600px;
+        top: 100px;
         
         margin-top: 500px;
         margin-left: 0px;
