@@ -7,10 +7,15 @@ body{
     font-size: 18px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     width: 100%;
+    
     overflow-x: hidden;
     overflow-y: hidden;
+    
+    background-size: cover;
+    
    
 }
+
 .slides .imgs{
     position: absolute;
     transition: all 2s ease;
@@ -312,7 +317,7 @@ video{
         margin-top: 580px;
         transform: scale(0.4);
         z-index: -1;
-        top: 100px;
+        top: 900px;
         position: relative;
     }
     .slides .slide .img{
@@ -328,7 +333,7 @@ video{
     .cup{
         transform: scale(0.5);
         left:0px;
-        top :-380px;
+        top :420px;
         
 
     }
@@ -344,13 +349,15 @@ video{
         
         
     }
-    video{
+    .video img{
        
-        width:375px;
-        height: 900px;
-        margin-top: 120px;
-        margin-left: 200px;
-        transform: scale(7);
+        width:100%;
+        position: absolute;
+        top: 600px;
+        
+        margin-top: 500px;
+        margin-left: 0px;
+        transform: scale(6);
     }
     
     

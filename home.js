@@ -102,7 +102,7 @@ var timesnew=0;
 function three(){
   timesnew+=1;
   
-if(timesnew==15){
+if(timesnew==4){
   cup.classList.add('cup1')
   cup.classList.add('ini')
   cup.classList.remove('cup2')
@@ -112,17 +112,17 @@ if(timesnew==15){
   
 
 }
-if(timesnew==16){
+if(timesnew==5){
    confetti();
    
 
 }
-if(timesnew==17){
+if(timesnew==6){
    confetti();
    
 
 }
-if(timesnew==18){
+if(timesnew==7){
    confetti();
    clearInterval(tim)
 
