@@ -91,8 +91,53 @@ var time =setInterval(one,5000)
 
 var cup=document.querySelector('.cup')
 
-cup.addEventListener('click',function(){
+cup.addEventListener('lick',function(){
   cup.classList.add('cup1')
   cup.classList.add('ini')
   cup.classList.remove('cup2')
 })
+
+var timesnew=0;
+
+function three(){
+  timesnew+=1;
+  
+if(timesnew==4){
+  cup.classList.add('cup1')
+  cup.classList.add('ini')
+  cup.classList.remove('cup2')
+  
+  confetti();
+  
+  
+
+}
+if(timesnew==5){
+   confetti();
+   
+
+}
+if(timesnew==6){
+   confetti();
+   
+
+}
+if(timesnew==7){
+   confetti();
+   clearInterval(tim)
+
+}
+
+console.log(timesnew)
+}
+var tim=setInterval(three,1000)
+
+
+
+const jsConfetti = new JSConfetti();
+function confetti(){
+   jsConfetti.addConfetti();
+
+}
+   
+
